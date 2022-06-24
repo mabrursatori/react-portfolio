@@ -8,7 +8,7 @@ import Loader from 'react-loaders';
 
 const Home = () => {
     const [letterClass, setLetterClass] = useState('text-animate');
-    const nameArray = ['M', 'a', 'b', 'r', 'u', 'r'];
+    const nameArray = ['a', 'b', 'r', 'u', 'r'];
     const jobArray = ['w', 'e', 'b', ' ', 'd', 'e', 'v', 'e', 'l', 'o', 'p', 'e', 'r', '.'];
 
 
@@ -36,7 +36,7 @@ const Home = () => {
                 strArray={jobArray}
                 idx={22} />
                 </h1>
-                <h2>Frontend Developer / Javascript Expert / Youtuber</h2>
+                <h2>Junior Software Developer</h2>
                 <Link to="/contact" className='flat-button'>CONTACT ME</Link>
             </div>
             <Logo/>

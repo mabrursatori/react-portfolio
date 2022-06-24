@@ -11,7 +11,8 @@ const Sidebar = () => (
     <div className="nav-bar">
         <Link className='logo' to="/">
             <img src={LogoS} alt="logo" />
-            <img className='sub-logo' src={LogoSubtitle} alt="slobodan" />
+            {/* <img className='sub-logo' src={LogoSubtitle} alt="slobodan" /> */}
+            <p className='sub-title'>Mabrur</p>
         </Link>
         <nav>
             <NavLink exact="true" activeclassname="active" to="/">
@@ -29,7 +30,7 @@ const Sidebar = () => (
                 <a
                 target="_blank"
                 rel="noreferrer"
-                href="https://www.google.com"
+                href="https://www.linkedin.com/in/mabrur-371b44195/"
                 >
                     <FontAwesomeIcon icon={faLinkedin} color="#4d4d4e"/>
                 </a>
@@ -38,7 +39,7 @@ const Sidebar = () => (
                 <a
                 target="_blank"
                 rel="noreferrer"
-                href="https://www.google.com"
+                href="https://github.com/mabrursatori"
                 >
                     <FontAwesomeIcon icon={faGithub} color="#4d4d4e"/>
                 </a>
@@ -52,7 +53,7 @@ const Sidebar = () => (
                     <FontAwesomeIcon icon={faYoutube} color="#4d4d4e"/>
                 </a>
             </li>
-            <li>
+            {/* <li>
                 <a
                 target="_blank"
                 rel="noreferrer"
@@ -60,7 +61,7 @@ const Sidebar = () => (
                 >
                     <FontAwesomeIcon icon={faSkype} color="#4d4d4e"/>
                 </a>
-            </li>
+            </li> */}
         </ul>
     </div>
 );
